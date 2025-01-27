@@ -4,18 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
 </head>
 <body>
-    <h1>Spotify</h1>
     <div class="sidebar">
-        <nav>
-            <div>
-                <a href="">
+        <nav class="sidebar-navigation">
+            <div class="logo">
+                <a href="#">
                     <img src="./assets/icons/logo-spotify.png" alt="logo-spotify">
                 </a>
             </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-home"></span>
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-search"></span>
+                            <span>Buscar</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
+        <div class="library">
+            <div class="library-content">
+                <a>
+                    <span class="fa fas fa-book"></span>
+                    <span>Sua biblioteca</span>
+                </a>
+                <span class="fa fa-plus"></span>
+            </div>
+        </div>
     </div>
 </body>
 </html>
