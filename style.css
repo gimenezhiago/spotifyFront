@@ -173,3 +173,43 @@ body {
     border-radius: 20px;
 }
 
+.disclainer-premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #101926, #2bdefd);
+    padding: 14px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.disclainer-premium .text {
+    flex-shrink: 0;
+}
+
+.disclainer-premium .disclainer-premium-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.disclainer-premium .disclainer-premium-subtitle {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclainer-premium button {
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
